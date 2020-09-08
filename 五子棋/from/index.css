@@ -1,0 +1,35 @@
+.wuziqi canvas {
+  display: block;
+  margin: 60px auto;
+  box-shadow: -2px -2px 2px #efefef, 5px 5px 5px #b9b9b9;
+  cursor: pointer;
+}
+
+.wuziqi .btn-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.wuziqi .btn-wrap div {
+  margin: 0 10px;
+}
+
+.wuziqi div>span {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #6496ED;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.wuziqi div.unable span {
+  background: #D6D6D4;
+  color: #adacaa;
+}
+
+#result-wrap {
+  text-align: center;
+  margin: 50px 0 0 0;
+}
